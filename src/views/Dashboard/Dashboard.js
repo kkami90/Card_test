@@ -121,7 +121,7 @@ export default function Dashboard() {
           </Card>
         </GridItem>
       </GridContainer>
-      <GridContainer>
+      {/* <GridContainer>
         <GridItem xs={12} sm={12} md={4}>
           <Card chart>
             <CardHeader color="success">
@@ -194,9 +194,9 @@ export default function Dashboard() {
             </CardFooter>
           </Card>
         </GridItem>
-      </GridContainer>
+      </GridContainer> */}
       <GridContainer>
-        <GridItem xs={12} sm={12} md={6}>
+        {/* <GridItem xs={12} sm={12} md={6}>
           <CustomTabs
             title="Tasks:"
             headerColor="primary"
@@ -236,7 +236,7 @@ export default function Dashboard() {
               }
             ]}
           />
-        </GridItem>
+        </GridItem> */}
         <GridItem xs={12} sm={12} md={6}>
           <Card>
             <CardHeader color="warning">
